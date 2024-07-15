@@ -18,7 +18,7 @@ RUN npm cache clean --force && \
     npm install --omit=optional --verbose
 
 # Set environment variable for API base URL
-ENV REACT_APP_API_BASE_URL=https://internal-qa-api.comerapay.com/admin
+
 
 # Build the application
 RUN npm run build
